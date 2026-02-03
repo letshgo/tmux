@@ -1,0 +1,75 @@
+session_name: letshgo
+windows:
+  # 0
+  - window_name: term
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
+  # 1
+  - window_name: ide
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+          - edit
+  # 2
+  - window_name: tasks
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+          - tasks
+  # 3
+  - window_name: irc
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+          - irc
+  # 4
+  - window_name: mail
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+          - mail
+  # 5
+  - window_name: news
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+          - news
+  # 6
+  - window_name: srv
+    layout: tiled
+    shell_command_before:
+      - cd ~/
+    panes:
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
+      - shell_command:
+          - clear
